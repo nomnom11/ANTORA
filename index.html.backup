@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ANTORA</title>
+<meta name="description" content="Official website of ANTORA ($ANTA), a community-driven crypto and Web3 brand. Small ant. Massive power.">
+<meta name="theme-color" content="#080808">
+<meta property="og:title" content="ANTORA ($ANTA)">
+<meta property="og:description" content="Small ant. Massive power. Strength in Unity. Power in Community.">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://i.imgur.com/avTQLwi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="hex" viewBox="0 0 100 100"><polygon points="50,3 93,26 93,74 50,97 7,74 7,26"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+    <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 6.5v11"/><path d="M15 9.5c-.6-1-1.7-1.5-3-1.5-1.7 0-3 .9-3 2.2 0 3 6 1.6 6 4.6 0 1.3-1.3 2.2-3 2.2-1.4 0-2.5-.6-3.1-1.6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/></symbol>
+    <symbol id="i-gov" viewBox="0 0 24 24"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 3 7h18z"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-dl" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.2 22H2l7.7-8.8L1.6 2h6.8l4.7 6.2zM17.8 20h1.8L6.3 3.9H4.4z"/></symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="ANTORA home">
+      <span class="logo-wrap"><img class="brand-img" src="https://i.imgur.com/avTQLwi.png" alt="ANTORA ant emblem" width="40" height="40"><span class="logo-fallback">ANTORA</span></span>
+      <span>ANTORA</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#ecosystem">Ecosystem</a><a href="#tokenomics">Tokenomics</a><a href="#roadmap">Roadmap</a><a href="#whitepaper">Whitepaper</a><a href="#faq">FAQ</a><a href="#community">Community</a>
+    </nav>
+    <a class="btn btn-primary btn-sm buy" data-link="buyUrl" aria-disabled="true" role="link" title="Available once the official purchase link is announced">Buy ANTORA</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><svg class="ic"><use href="#i-menu"/></svg></button>
+  </div>
+  <div class="mnav" id="mnav" hidden>
+    <div class="wrap">
+      <a class="m-link" href="#home">Home</a><a class="m-link" href="#about">About</a><a class="m-link" href="#ecosystem">Ecosystem</a><a class="m-link" href="#tokenomics">Tokenomics</a><a class="m-link" href="#roadmap">Roadmap</a><a class="m-link" href="#whitepaper">Whitepaper</a><a class="m-link" href="#faq">FAQ</a><a class="m-link" href="#community">Community</a>
+      <a class="btn btn-primary btn-sm" data-link="buyUrl" aria-disabled="true" role="link">Buy ANTORA</a>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+
+<section class="hero" id="home" aria-labelledby="h-title">
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="floaters" aria-hidden="true">
+    <svg class="f1" viewBox="0 0 100 100"><use href="#hex"/></svg>
+    <svg class="f2" viewBox="0 0 100 100"><use href="#hex"/></svg>
+    <svg class="f3" viewBox="0 0 100 100"><use href="#hex"/></svg>
+    <svg class="f4" viewBox="0 0 100 100"><use href="#hex"/></svg>
+    <svg class="f5" viewBox="0 0 100 100"><use href="#hex"/></svg>
+    <svg class="f6" viewBox="0 0 100 100"><use href="#hex"/></svg>
+  </div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">$ANTA &middot; Community-driven Web3</p>
+        <h1 id="h-title" class="gold-text">ANTORA</h1>
+        <p class="tagline"><span>Small ant.</span><span>Massive power.</span></p>
+        <p class="hero-sub">Strength in Unity. Power in Community.</p>
+        <p class="hero-desc">Built on the power of unity, inspired by the strength of ants. ANTORA represents a new vision of community-driven crypto innovation.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#about">Explore ANTORA</a>
+          <a class="btn" href="#community">Join our community</a>
+        </div>
+        <a class="x-chip" href="https://x.com/AntoraAI" target="_blank" rel="noopener noreferrer"><svg class="ic ic-fill"><use href="#i-x"/></svg>x.com/AntoraAI</a>
+      </div>
+      <div class="hero-stage">
+        <div class="stage">
+          <span class="glow"></span>
+          <svg class="ring" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="97" fill="none" stroke="#D4A017" stroke-opacity=".35" stroke-dasharray="2 7"/><g fill="#FFD700"><circle cx="100" cy="3" r="2.2"/><circle cx="184" cy="52" r="1.6"/><circle cx="16" cy="148" r="1.6"/></g></svg>
+          <svg class="ring rev" viewBox="0 0 100 100" aria-hidden="true" style="fill:none;stroke:#D4A017;stroke-opacity:.55;stroke-width:.35"><use href="#hex"/></svg>
+          <span class="logo-wrap"><img class="brand-img" src="https://i.imgur.com/avTQLwi.png" alt="Official ANTORA golden ant logo" width="300" height="300"><span class="logo-fallback">ANTORA</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about" aria-labelledby="h-about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="eyebrow">About ANTORA</span>
+      <h2 id="h-about">The power of unity</h2>
+      <p class="lead">ANTORA is a community-driven cryptocurrency and Web3 brand inspired by the strength, intelligence, teamwork, discipline and resilience of ants. It stands for the power of collective growth and innovation.</p>
+      <p class="lead">Every ant contributes to the strength of its colony. Together, small actions create extraordinary results.</p>
+      <p class="pull">Small ant. Massive power.</p>
+    </div>
+    <div class="values">
+      <article class="card lift value"><span class="vi"><svg class="ic"><use href="#i-users"/></svg></span><h3>UNITY</h3><p>The strength of collective participation.</p></article>
+      <article class="card lift value"><span class="vi"><svg class="ic"><use href="#i-bulb"/></svg></span><h3>INNOVATION</h3><p>Embracing new ideas and digital opportunities.</p></article>
+      <article class="card lift value"><span class="vi"><svg class="ic"><use href="#i-shield"/></svg></span><h3>RESILIENCE</h3><p>Building with discipline and long-term vision.</p></article>
+      <article class="card lift value"><span class="vi"><svg class="ic"><use href="#i-globe"/></svg></span><h3>COMMUNITY</h3><p>Growing together through shared participation.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="ecosystem" aria-labelledby="h-eco">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Ecosystem</span>
+      <h2 id="h-eco">The ANTORA ecosystem</h2>
+      <p class="lead">Six proposed building blocks around one colony. These are concepts under consideration, not confirmed live products. Select a block to read more.</p>
+    </div>
+
+    <div class="eco-map" id="ecoMap">
+      <svg class="eco-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="50" y1="50" x2="50" y2="7"/><line x1="50" y1="50" x2="86" y2="27"/><line x1="50" y1="50" x2="86" y2="73"/><line x1="50" y1="50" x2="50" y2="93"/><line x1="50" y1="50" x2="14" y2="73"/><line x1="50" y1="50" x2="14" y2="27"/>
+      </svg>
+      <div class="eco-core"><div class="disc"><span class="logo-wrap"><img class="brand-img" src="https://i.imgur.com/avTQLwi.png" alt="ANTORA logo at the centre of the ecosystem" width="130" height="130"><span class="logo-fallback">ANTORA</span></span></div></div>
+      <button class="eco-node n1" aria-pressed="true" data-i="0" data-desc="The proposed core of the ecosystem. The blockchain network, supply and utility are still being defined and will be announced once verified."><span class="top"><svg class="ic"><use href="#i-coin"/></svg><span class="name">ANTORA Token</span></span><span class="chip">Planned concept</span></button>
+      <button class="eco-node n2" aria-pressed="false" data-i="1" data-desc="A proposed home where members can follow updates, take part in community initiatives and learn together."><span class="top"><svg class="ic"><use href="#i-chat"/></svg><span class="name">Community Hub</span></span><span class="chip">Planned concept</span></button>
+      <button class="eco-node n3" aria-pressed="false" data-i="2" data-desc="Planned exploration of wallet and on-chain integrations once a network has been selected."><span class="top"><svg class="ic"><use href="#i-link"/></svg><span class="name">Web3 Integration</span></span><span class="chip">Planned concept</span></button>
+      <button class="eco-node n4" aria-pressed="false" data-i="3" data-desc="Possible tools and use cases for the community. Nothing is confirmed, and utility is under development."><span class="top"><svg class="ic"><use href="#i-tool"/></svg><span class="name">Ecosystem Utilities</span></span><span class="chip">Planned concept</span></button>
+      <button class="eco-node n5" aria-pressed="false" data-i="4" data-desc="A concept for community participation in decisions. The mechanism has not been designed yet."><span class="top"><svg class="ic"><use href="#i-gov"/></svg><span class="name">Governance</span></span><span class="chip">Planned concept</span></button>
+      <button class="eco-node n6" aria-pressed="false" data-i="5" data-desc="Room for later ideas, shaped by the community and the roadmap as the project matures."><span class="top"><svg class="ic"><use href="#i-rocket"/></svg><span class="name">Future Development</span></span><span class="chip">Planned concept</span></button>
+    </div>
+
+    <div class="card eco-detail" aria-live="polite">
+      <span class="chip" id="ecoChip">Planned concept</span>
+      <h3 id="ecoTitle">ANTORA Token</h3>
+      <p id="ecoDesc">The proposed core of the ecosystem. The blockchain network, supply and utility are still being defined and will be announced once verified.</p>
+    </div>
+
+    <div class="status-board">
+      <div class="card">
+        <h3><span class="chip live">Available now</span></h3>
+        <ul>
+          <li>Official website</li>
+          <li>Official X account <a href="https://x.com/AntoraAI" target="_blank" rel="noopener noreferrer">@AntoraAI</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="chip">Planned</span></h3>
+        <ul>
+          <li>ANTORA Token, Community Hub, Web3 Integration</li>
+          <li>Ecosystem Utilities, Governance, Future Development</li>
+          <li>None of these is live yet</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="token" aria-labelledby="h-token">
+  <div class="wrap token-grid">
+    <div>
+      <div class="sec-head" style="margin-bottom:28px">
+        <span class="eyebrow">Token</span>
+        <h2 id="h-token">Meet the ANTORA token</h2>
+        <p class="lead">Details are published here only after they are officially confirmed. Anything shown as TBD has not been decided or announced.</p>
+      </div>
+      <dl class="card tcard" style="margin:0">
+        <div class="trow"><dt>Token name</dt><dd>ANTORA</dd></div>
+        <div class="trow"><dt>Ticker</dt><dd>$ANTA</dd></div>
+        <div class="trow"><dt>Blockchain</dt><dd id="tkChain" class="pending">TBD</dd></div>
+        <div class="trow"><dt>Total supply</dt><dd id="tkSupply" class="pending">TBD</dd></div>
+        <div class="trow"><dt>Contract address</dt><dd><span id="tkContract" class="pending">Not announced</span><button class="btn btn-sm" id="copyBtn" disabled title="Available once an official contract address is published"><svg class="ic"><use href="#i-copy"/></svg><span id="copyLbl">Copy</span></button></dd></div>
+        <div class="trow"><dt>Token utility</dt><dd id="tkUtility" class="pending">Under development</dd></div>
+      </dl>
+      <p class="note" style="margin-top:14px">The copy button unlocks only when an official contract address is added.</p>
+    </div>
+    <div class="tok-stage">
+      <div class="stage">
+        <span class="glow"></span>
+        <svg class="ring" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="97" fill="none" stroke="#D4A017" stroke-opacity=".35" stroke-dasharray="2 7"/></svg>
+        <svg class="ring rev" viewBox="0 0 100 100" aria-hidden="true" style="fill:none;stroke:#D4A017;stroke-opacity:.55;stroke-width:.35"><use href="#hex"/></svg>
+        <span class="logo-wrap"><img class="brand-img" src="https://i.imgur.com/avTQLwi.png" alt="ANTORA token emblem" width="230" height="230"><span class="logo-fallback">ANTORA</span></span>
+      </div>
+      <p class="tok-label gold-text">$ANTA</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="tokenomics" aria-labelledby="h-tk">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Tokenomics</span>
+      <h2 id="h-tk">ANTORA tokenomics</h2>
+      <p class="lead">Six allocation categories are planned. No amounts or percentages have been set. Hover or focus a category to find its segment.</p>
+    </div>
+    <div class="tk-grid">
+      <div class="donut-box">
+        <svg id="donut" viewBox="0 0 200 200" role="img" aria-label="Allocation chart with six categories. Percentages are to be determined."></svg>
+        <p class="note" id="donutNote">Equal segments are placeholders, not allocations.</p>
+      </div>
+      <div>
+        <ul class="alloc" id="alloc"></ul>
+        <div class="tk-meta">
+          <div><span>Total supply</span><b>TBD</b></div>
+          <div><span>Allocation percentages</span><b>TBD</b></div>
+          <div><span>Vesting schedule</span><b id="tkVesting">TBD</b></div>
+        </div>
+        <p class="banner"><svg class="ic"><use href="#i-info"/></svg>Official tokenomics will be published after final approval.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="roadmap" aria-labelledby="h-road">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Roadmap</span>
+      <h2 id="h-road">The road to ANTORA</h2>
+      <p class="lead">Four phases, in order. Every item is a planned milestone, not a completed achievement, and timing is not fixed.</p>
+    </div>
+    <div class="road">
+      <article class="card phase lift"><span class="pn">PHASE 01</span><h3>FOUNDATION</h3><span class="chip">Planned</span><ul><li>Brand development</li><li>Official website</li><li>Social media establishment</li><li>Community building</li><li>Whitepaper preparation</li></ul></article>
+      <article class="card phase lift"><span class="pn">PHASE 02</span><h3>DEVELOPMENT</h3><span class="chip">Planned</span><ul><li>Token design</li><li>Blockchain selection</li><li>Smart contract development</li><li>Security review</li><li>Tokenomics finalization</li></ul></article>
+      <article class="card phase lift"><span class="pn">PHASE 03</span><h3>COMMUNITY EXPANSION</h3><span class="chip">Planned</span><ul><li>Marketing campaigns</li><li>Community initiatives</li><li>Educational content</li><li>Strategic collaboration proposals</li></ul></article>
+      <article class="card phase lift"><span class="pn">PHASE 04</span><h3>ECOSYSTEM GROWTH</h3><span class="chip">Planned</span><ul><li>Additional ecosystem utilities</li><li>Governance development</li><li>Web3 integrations</li><li>International community expansion</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec band" id="whitepaper" aria-labelledby="h-wp">
+  <div class="wrap wp-grid">
+    <div>
+      <span class="eyebrow">Whitepaper</span>
+      <h2 id="h-wp">Discover the ANTORA vision</h2>
+      <p class="lead">The whitepaper will set out the project in one place: what ANTORA is, where it is heading and the risks involved. It is not published yet.</p>
+      <div class="wp-actions">
+        <a class="btn btn-primary" data-link="whitepaperUrl" aria-disabled="true" role="link" title="Available once the official whitepaper is uploaded"><svg class="ic"><use href="#i-dl"/></svg>Download whitepaper</a>
+        <span class="note">The download unlocks when the official document is uploaded.</span>
+      </div>
+    </div>
+    <div class="doc" aria-label="Planned whitepaper contents">
+      <div class="dh"><b>ANTORA</b><span class="chip">In preparation</span></div>
+      <ol>
+        <li>Project introduction</li><li>Vision and mission</li><li>Core philosophy</li><li>Ecosystem overview</li><li>Tokenomics</li><li>Roadmap</li><li>Security</li><li>Risk disclosure</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="sec community" id="community" aria-labelledby="h-com">
+  <div class="wrap">
+    <span class="eyebrow">Community</span>
+    <h2 id="h-com">Join the ant army</h2>
+    <p class="big gold-text">ONE COLONY. ONE VISION. ONE FUTURE.</p>
+    <p class="lead">Become part of the ANTORA community and grow together with a global network of supporters.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://x.com/AntoraAI" target="_blank" rel="noopener noreferrer"><svg class="ic ic-fill"><use href="#i-x"/></svg>Follow ANTORA on X</a>
+      <a class="btn" data-link="telegramUrl" aria-disabled="true" role="link" title="Telegram link not announced yet"><svg class="ic"><use href="#i-send"/></svg>Telegram</a>
+      <a class="btn" data-link="discordUrl" aria-disabled="true" role="link" title="Discord link not announced yet"><svg class="ic"><use href="#i-chat"/></svg>Discord</a>
+    </div>
+    <p class="note small">Telegram and Discord are placeholders until official links are announced.</p>
+  </div>
+</section>
+
+<section class="sec band" id="faq" aria-labelledby="h-faq">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center">
+      <span class="eyebrow">FAQ</span>
+      <h2 id="h-faq">Questions, answered</h2>
+    </div>
+    <div class="faq" id="faq-list">
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a1" id="q1">What is ANTORA?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a1" role="region" aria-labelledby="q1"><div><p>ANTORA is a community-driven cryptocurrency and Web3 brand inspired by the strength, intelligence, teamwork, discipline and resilience of ants.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a2" id="q2">What does ANTORA represent?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a2" role="region" aria-labelledby="q2"><div><p>The power of collective growth and innovation. Every ant contributes to the strength of its colony, and together small actions create extraordinary results. The brand idea is Strength in Unity, Power in Community.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a3" id="q3">What is the ANTORA token symbol?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a3" role="region" aria-labelledby="q3"><div><p>The token symbol is $ANTA.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a4" id="q4">Which blockchain does ANTORA use?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a4" role="region" aria-labelledby="q4"><div><p><span class="tba">To Be Announced.</span> Blockchain selection is part of the planned development phase.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a5" id="q5">What is the total token supply?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a5" role="region" aria-labelledby="q5"><div><p><span class="tba">To Be Announced.</span> Official tokenomics will be published after final approval.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a6" id="q6">What is the utility of ANTORA?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a6" role="region" aria-labelledby="q6"><div><p><span class="tba">To Be Announced.</span> Utility is under development. The ecosystem components on this site are proposed concepts, not confirmed live products.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a7" id="q7">Where can I follow official ANTORA updates?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a7" role="region" aria-labelledby="q7"><div><p>On X at <a href="https://x.com/AntoraAI" target="_blank" rel="noopener noreferrer">x.com/AntoraAI</a>. Treat other accounts claiming to represent ANTORA with caution.</p></div></div></div>
+      <div class="faq-item"><h3><button class="faq-q" aria-expanded="false" aria-controls="a8" id="q8">How can I join the community?<svg class="ic"><use href="#i-down"/></svg></button></h3><div class="faq-a" id="a8" role="region" aria-labelledby="q8"><div><p>Follow ANTORA on X today. Telegram and Discord links are <span class="tba">To Be Announced</span>.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <span class="logo-wrap"><img class="brand-img" src="https://i.imgur.com/avTQLwi.png" alt="ANTORA logo" width="76" height="76"><span class="logo-fallback">ANTORA</span></span>
+        <b>ANTORA</b>
+        <p>SMALL ANT. MASSIVE POWER.</p>
+      </div>
+      <div>
+        <h3>Navigate</h3>
+        <nav aria-label="Footer"><a href="#home">Home</a><a href="#about">About</a><a href="#ecosystem">Ecosystem</a><a href="#tokenomics">Tokenomics</a><a href="#roadmap">Roadmap</a><a href="#whitepaper">Whitepaper</a></nav>
+      </div>
+      <div>
+        <h3>Official social</h3>
+        <a class="social" href="https://x.com/AntoraAI" target="_blank" rel="noopener noreferrer"><svg class="ic ic-fill"><use href="#i-x"/></svg>X / Twitter &middot; @AntoraAI</a>
+      </div>
+    </div>
+    <div class="legal" role="group" aria-label="Legal">
+      <button data-panel="p-priv" aria-expanded="false" aria-controls="p-priv">Privacy Policy</button>
+      <button data-panel="p-terms" aria-expanded="false" aria-controls="p-terms">Terms of Use</button>
+      <button data-panel="p-risk" aria-expanded="false" aria-controls="p-risk">Risk Disclaimer</button>
+    </div>
+    <div class="legal-panel" id="p-priv" hidden><b>Privacy Policy.</b> A full policy will be published before this site collects any personal data. This page contains no sign-up forms and no analytics of its own.</div>
+    <div class="legal-panel" id="p-terms" hidden><b>Terms of Use.</b> Full terms will be published with the official launch information. Until then, everything on this site is for information only and is not advice.</div>
+    <div class="legal-panel" id="p-risk" hidden><b>Risk Disclaimer.</b> Cryptocurrencies and digital assets are highly volatile and carry substantial risk, including the loss of all value. Nothing on this site is financial, investment, legal or tax advice, or an offer or solicitation to buy or sell any token. Details such as blockchain, supply and utility are not yet announced and may change. Do your own research and never commit more than you can afford to lose.</div>
+    <p class="disclaimer"><b>Risk disclaimer:</b> Cryptocurrency involves significant risk and may result in total loss. This website is informational only, offers no token sale, and does not constitute financial advice. Only follow updates from the official X account, @AntoraAI, and be careful with impersonators.</p>
+    <p class="copy">&copy; 2026 ANTORA. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

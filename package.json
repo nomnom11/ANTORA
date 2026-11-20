@@ -1,0 +1,21 @@
+{
+  "name": "antora-website",
+  "version": "1.0.0",
+  "description": "Official website for ANTORA ($ANTA): a black-and-gold, community-driven Web3 brand site.",
+  "private": true,
+  "scripts": {
+    "start": "serve . -l 3000",
+    "dev": "serve . -l 3000",
+    "check": "node --check js/config.js && node --check js/main.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "three": "^0.187.0"
+  }
+}
